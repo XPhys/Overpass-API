@@ -34,6 +34,12 @@ EXEC_DIR="$3"
 META="$4"
 COMPRESSION="$5"
 
+echo "PLANET_FILE: $PLANET_FILE"
+echo "DB_DIR: $DB_DIR"
+echo "EXEC_DIR: $EXEC_DIR"
+echo "META: $META"
+echo "COMPRESSION: $COMPRESSION"
+
 if [[ ! -s $PLANET_FILE ]]; then
 {
   echo "File $PLANET_FILE doesn't exist."
